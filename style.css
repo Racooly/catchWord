@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+*{
+    font-family: 'Odibee Sans';
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #212121;
+}
+p{
+    font-size: 24px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px 40px;
+    color: white;
+}
+.playing{
+    text-align: center;
+    padding: 0px 40px;
+    margin-top: 100px;
+    color: white;
+    position: relative;
+}
+.playing p{
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 24px;
+    text-align: center;
+    outline: none;
+    background-color: #212121;
+    color: white;
+}
+input:focus{
+    border-bottom: 2px solid white;
+}
+.scoring{
+    text-align: center;
+}
+.addMore{
+    font-size: 20px;
+    color: green;
+    display: none;
+    position: absolute;
+}
+#gameOver{
+    width:450px;
+    background-color: white;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+    padding: 30px 0px;
+    display: none;
+}
+#gameOver h1{
+    margin-bottom: 20px;
+}
+#gameOver p{
+    margin-bottom: 20px;
+}
+#gameOver #restart{
+    width: 206px;
+    height: 46px;
+    border: none;
+    border-radius: 20px;
+    background-color: #212121;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
