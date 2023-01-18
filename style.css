@@ -77,3 +77,8 @@ input:focus{
     font-size: 20px;
     cursor: pointer;
 }
+@media screen and (max-width: 496px){
+    #gameOver{
+        width: 300px;
+    }
+}
